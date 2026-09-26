@@ -58,7 +58,6 @@ export function DashboardUI({ student, current, next, logoutAction }: any) {
                 <p className="text-slate-500 font-medium tracking-wide">{student.enrollmentNumber}</p>
               </div>
             </div>
-            {next && <NotificationTester lecture={next} />}
           </div>
         </motion.section>
 
